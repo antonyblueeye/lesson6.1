@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  border: 10px solid rgb(48, 129, 172);
+  background: rgb(58, 153, 204);
+  font-family: Lucida, sans-serif;
+}
+
+.title {
+    margin-top: 15px;
+  margin-left: 15%;
+  color: white;
+  font-size: 26px;
+}
+
+main {
+  margin-top: 30px;
+}
+
+.wrapper {
+  width: 70%;
+  margin-left: 15%;
+  outline: solid 3px white;
+}
+
+.block {
+  display: inline-block;
+  margin-right: -4px;
+  padding-top: 15px;
+  width: 25%;
+  height: 105px;
+  text-align: center;
+  outline: solid 3px white;
+  font-size: 30px;
+  color: white;
+  vertical-align: top;
+}
+
+
+
+.block:nth-child(1),
+.block:nth-child(9) {
+  width: 50%;
+}
+
+.block:nth-child(11) {
+  width: 100%;
+  background: rgb(102, 102, 153);
+}
+
+.block:nth-child(2) {
+  background: rgb(88, 204, 205);
+}
+
+.block:nth-child(3) {
+  background: rgb(153, 102, 153);
+}
+
+.block:nth-child(4) {
+  background: rgb(194, 71, 71);
+}
+
+.block:nth-child(5) {
+  background: rgb(226, 103, 74);
+}
+
+.block:nth-child(6) {
+  background: rgb(249, 203, 102);
+}
+
+.block:nth-child(7) {
+  background: rgb(153, 204, 153);
+}
+
+.block:nth-child(8) {
+  background: rgb(102, 153, 153);
+}
+
+.block:nth-child(9) {
+  background: rgb(204, 102, 153);
+}
+
+.block:nth-child(10) {
+  background: rgb(68, 153, 102);
+}
+
+.block:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+.block-div {
+  margin-top: 10px;
+}
+
+.block-span {
+  vertical-align: top;
+  margin-right: 20px;
+  font-weight: 100;
+}
+
+.weather-img {
+  width: 40px;
+  height: 35px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.footer-text, .footer-link {
+    font-size: 18px;
+    color: white;
+    margin-left: 15%;
+}
+
+.footer-link {
+    margin-top: 15px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
